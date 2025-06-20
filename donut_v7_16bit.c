@@ -19,8 +19,8 @@ fill(dst, c, n)
         _ = x;                             \
         x -= mul * y >> shift;             \
         y += mul * _ >> shift;             \
-        _ = 12288 - x * x - y * y >> 7; \
-        x = x * _ >> 6;                    \
+        _ = 12288 - x * x - y * y >> 7;     \
+        x = x * _ >> 6;                     \
         y = y * _ >> 6;
 
 int main()
@@ -87,3 +87,4 @@ int main()
         }
         return 0;
 }
+
