@@ -1,5 +1,5 @@
 #include <stdio.h>
-long _, j, i, k, sj, cj, si, ci, R1, R2, K2, x0, x1, x2, x3, x4, x5, x6, x7, x, y, N, o, sA, cA, sB, cB, Nt;
+int _, j, i, k, sj, cj, si, ci, R1, R2, K2, x0, x1, x2, x3, x4, x5, x6, x7, x, y, N, o, sA, cA, sB, cB, Nt;
 char *d;
 char zz;
 char *b;
