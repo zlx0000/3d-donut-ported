@@ -30,7 +30,7 @@ int main()
                 write(2, "no mem\n", 7); exit(1);
         }
         printf("malloc successful\n");
-        d[0] = '0';
+        d[0] = '.';
         d[1] = ',';
         d[2] = '-';
         d[3] = '~';
@@ -75,15 +75,15 @@ int main()
                                         z[o] = zz;
                                         b[o] = d[N > 0 ? N : 0];
                                 }
-                                R(2, 3, ci, si)
+                                R(1, 3, ci, si)
                         }
-                        R(3, 2, cj, sj)
+                        R(1, 2, cj, sj)
                 }
                 for (k = 0; 1761 > k; k++) {
                         putchar(k % 80 ? b[k] : 10);
                 }
-                R(2, 2, cA, sA);
-                R(2, 3, cB, sB);
+                R(1, 2, cA, sA);
+                R(1, 3, cB, sB);
                 printf("\f");
         }
         return 0;

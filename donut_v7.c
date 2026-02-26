@@ -29,7 +29,7 @@ int main()
                 write(2, "no mem\n", 7); exit(1);
         }
         printf("malloc successful\n");
-        d[0] = '0';
+        d[0] = '.';
         d[1] = ',';
         d[2] = '-';
         d[3] = '~';
