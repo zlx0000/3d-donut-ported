@@ -84,7 +84,7 @@ int main()
                 }
                 R(1, 2, cA, sA);
                 R(1, 3, cB, sB);
-                printf("\f");
+                printf("\033[22A");
         }
         return 0;
 }
